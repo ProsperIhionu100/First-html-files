@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contain{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background-color: blueviolet; 
+}
+.house{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 55%;
+}
+body{
+   height: 150vh
+}

@@ -1,0 +1,18 @@
+h1:hover{
+    color: blueviolet;
+}
+
+button:hover{
+    background-color: hotpink;
+    color: white;
+}
+.button{
+    padding: 15px 35px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+}
+p{}
+
+

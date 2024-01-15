@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+}
+.img1{
+    width: 200px;
+    height: 100px;
+}
+
+h1{
+    margin-right: auto;
+}
+nav a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+
+}
+nav a:hover{
+    color: red;
+}
+nav{
+    margin-right: 55px;
+}
+body{
+    background-image: url(Images/house3.jpg) ;
+    background-size: cover;
+    background-position: contain;
+    height: 100vh;
+    width: 100%;
+    
+}
+nav button{
+    padding: 25px 35px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+}
+nav button:hover{
+    background-color: orange;
+    color: black;
+}
+.na1{
+    color: red;
+}
+.na1:hover{
+    color: orange;
+}

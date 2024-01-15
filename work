@@ -1,0 +1,25 @@
+on your webpage, outline Various houses along with the images and give  details
+about the house, Including price, Numberr of rooms, Number of toilets
+
+positioning is a way to control and positon the layout of images on your webpage
+relative positionig elements are positioned relative to the normal position
+absolute positionig elements ar remove from the normal flow and positioned relative to their 
+nearest positioned ancestor
+elemens are removed from their normal flow and positioned relative to the veiw port
+
+// Django Project
+ {% if request.user == room.host %}
+            <!-- <a href="{% url "update-room" room.id %}">Edit</a> -->
+            <!-- <a href="{% url "delete-room" room.id  %}">Delete</a> -->
+            {% endif %}
+        <!-- For Create Room -->
+            # form = RoomForm(request.POST)
+        # if form.is_valid():
+        #     room = form.save(commit=False)
+        #     room.host =  request.user 
+        #     room.save()
+
+        <!-- For Update Room -->
+        # form = RoomForm(request.POST, instance=room)
+        # if form.is_valid():
+        #     form.save()

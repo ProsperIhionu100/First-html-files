@@ -1,0 +1,99 @@
+
+.h1o{
+    font-size: 7rem;
+    color: orangered;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    
+}
+.h1o:hover{
+    color: antiquewhite;
+}
+.div1{
+    position: relative;
+    left: 37%;
+    top : 150px;
+    width: 500px;
+    
+}
+.inp{
+    width: 700px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: larger;
+    padding-left: 20px;
+    background-color: burlywood;
+}
+.div2{
+    position: relative;
+    left: 320px;
+    top : 100px;
+    width: 50rem;
+}
+.but1{
+    position: relative;
+    top: 150px;
+    left: 750px;
+    padding: 15px;
+    font-size: larger;
+    border-style: none ;
+    background-color: green;
+}
+.but2{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    padding: 15px;
+    font-size: larger;
+    border-style: none ;
+    background-color: green;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(165, 42, 42, 0.517),rgba(0, 128, 0, 0.563)), 
+    url(Images/house2.jpeg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+@media screen and (max-width:700px) {
+    .h1o{
+        font-size:50px;
+
+    }
+    .inp{
+        width: 200px;
+        font-size: small;
+        
+        
+    }
+    .div1{
+        top: 100px;
+    }
+    .div2{
+        left: 170px;
+        top:  70px;
+        
+    }
+    .but1{
+        padding: 2px 2px;
+        font-size: small;
+        left: 190px;
+        top:  80px;
+       
+    }
+    .but2{
+        padding: 2px 2px;
+        font-size: small;
+        left: 200px;
+        top:  80px;
+    }
+}

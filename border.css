@@ -1,0 +1,16 @@
+div{
+    width: 350px;
+    height: 350px;
+    border: solid green 20px;
+    border-radius: 50%;
+}
+.div1{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(Images/burger2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
